@@ -1,0 +1,25 @@
+{
+  "name": "cc-http-async",
+  "version": "1.0.0",
+  "description": "Keeping it clean with GameMaker Studio 2",
+  "repository": "https://github.com/johnson-jesse/cc-http-async.git",
+  "author": "Jesse A Johnson (southern brim)",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "prettier": "^2.2.0"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false,
+    "overrides": [
+    {
+      "files": "*.gml",
+      "options": {
+        "parser": "typescript"
+      }
+    }
+  ]	
+  }
+}

@@ -1,6 +1,4 @@
 loading = true;
-
-User_Get({
-	uuid: "consectetur_adipiscing_elit",
-	callback: User_Set
-});
+with (aUser) {
+	event_perform(ev_other, ev_user0);
+}

@@ -18,20 +18,20 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":62,"eventType":7,"collisionObjectId":null,"parent":{"name":"aUser","path":"objects/aUser/aUser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"aUser","path":"objects/aUser/aUser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"aUser","path":"objects/aUser/aUser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":62,"eventType":7,"collisionObjectId":null,"parent":{"name":"uAgent","path":"objects/uAgent/uAgent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"uAgent","path":"objects/uAgent/uAgent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"uAgent","path":"objects/uAgent/uAgent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":4,"value":"undefined","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"callback","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Agent",
-    "path": "folders/Objects/Agent.yy",
+    "name": "User",
+    "path": "folders/User.yy",
   },
   "resourceVersion": "1.0",
-  "name": "aUser",
+  "name": "uAgent",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oUser",
-    "path": "objects/oUser/oUser.yy",
+    "name": "uModel",
+    "path": "objects/uModel/uModel.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Entity",
-    "path": "folders/Objects/Entity.yy",
+    "path": "folders/Entity.yy",
   },
   "resourceVersion": "1.0",
   "name": "eButton",

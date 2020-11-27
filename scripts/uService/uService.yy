@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "User",
+    "path": "folders/User.yy",
   },
   "resourceVersion": "1.0",
-  "name": "User",
+  "name": "uService",
   "tags": [],
   "resourceType": "GMScript",
 }

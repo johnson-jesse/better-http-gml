@@ -24,7 +24,7 @@ function User_Map_Single (_code, _payload) {
 		break;
 		default:
 			show_debug_message("\n" + string(_code) + "\n" + _payload + "\n");
-			return new User_Error(_code, "Unsupported scenario");
+			return new User_Error(_code, "Unsupported Scenario");
 		break;
 	}
 }
@@ -34,16 +34,16 @@ function User_(_code) constructor {
 	code = _code;
 	out = string(_code);
 	toString = function() {
-		return out;
+		return out;	
 	}
 }
 
-function User_Model(_code, _uuid, _email, _first, _last) : User_(_code) constructor { 
-    uuid = _uuid;
+function User_Model(_code, _uuid, _email, _first, _last) : User_(_code) constructor {
+	uuid = _uuid;
 	email = _email;
 	first = _first;
 	last = _last;
-	out = "<"+ email + "> " + last + ", " + first;
+	out = "<" + email + "> " + last + ", " + first;
 }
 
 function User_Error(_code, _issue) : User_(_code) constructor {

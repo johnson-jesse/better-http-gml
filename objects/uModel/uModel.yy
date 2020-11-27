@@ -18,8 +18,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oUser","path":"objects/oUser/oUser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"oUser","path":"objects/oUser/oUser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"uModel","path":"objects/uModel/uModel.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"uModel","path":"objects/uModel/uModel.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":4,"value":"undefined","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"user","tags":[],"resourceType":"GMObjectProperty",},
@@ -27,11 +27,11 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Entity",
-    "path": "folders/Objects/Entity.yy",
+    "name": "User",
+    "path": "folders/User.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oUser",
+  "name": "uModel",
   "tags": [],
   "resourceType": "GMObject",
 }

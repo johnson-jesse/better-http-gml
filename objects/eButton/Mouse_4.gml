@@ -1,4 +1,5 @@
 loading = true;
-with (aUser) {
-	event_perform(ev_other, ev_user0);
-}
+User_Get(function(_data) {
+	user = _data;
+	loading = false;
+});

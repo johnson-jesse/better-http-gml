@@ -1,9 +1,11 @@
 function User_Get (_callback) {
-	with (aUser) {
+	with (uAgent) {
 		callback = _callback;
 		event_perform(ev_other, ev_user0);
 	}
 }
+
+#region Data Mapping
 
 function User_Map_Single (_code, _payload) {
 	switch(_code) {
@@ -28,6 +30,8 @@ function User_Map_Single (_code, _payload) {
 		break;
 	}
 }
+
+#endregion
 
 #region Data Modeling
 function User_(_code) constructor {

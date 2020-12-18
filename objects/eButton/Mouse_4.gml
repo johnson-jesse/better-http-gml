@@ -1,4 +1,8 @@
 loading = true;
-with (aUser) {
-	event_perform(ev_other, ev_user0);
-}
+delete user;
+user = "";
+
+User_Get(function(_code, _payload) {
+	user = User_Map_Single(_code, _payload);
+	loading = false;
+});

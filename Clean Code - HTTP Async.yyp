@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"Config","path":"scripts/Config/Config.yy",},"order":1,},
     {"id":{"name":"eButton","path":"objects/eButton/eButton.yy",},"order":0,},
+    {"id":{"name":"User","path":"scripts/User/User.yy",},"order":2,},
     {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},"order":0,},
     {"id":{"name":"aUser","path":"objects/aUser/aUser.yy",},"order":0,},
     {"id":{"name":"oUser","path":"objects/oUser/oUser.yy",},"order":1,},
